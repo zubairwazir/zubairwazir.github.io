@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .hobbies, .contact, footer{
+.about, .services, .skills, .portfolio, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
@@ -254,16 +254,16 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .hobbies{
+.services, .portfolio{
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.hobbies .title::before{
+.portfolio .title::before{
     background: #fff;
 }
 .services .title::after,
-.hobbies .title::after{
+.portfolio .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -374,11 +374,11 @@ section .title::after{
     width: 70%;
 }
 
-/* hobbies section styling */
-.hobbies .title::after{
+/* portfolio section styling */
+.portfolio .title::after{
     content: "what I do";
 }
-.hobbies .carousel .card{
+.portfolio .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -386,25 +386,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.hobbies .carousel .card:hover{
+.portfolio .carousel .card:hover{
     background: crimson;
 }
-.hobbies .carousel .card .box{
+.portfolio .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.hobbies .carousel .card:hover .box{
+.portfolio .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.hobbies .carousel .card .text{
+.portfolio .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.hobbies .carousel .card img{
+.portfolio .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -412,7 +412,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.hobbies .carousel .card:hover img{
+.portfolio .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
